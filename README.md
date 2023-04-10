@@ -30,7 +30,7 @@ This repository contains a series of Solidity mini-projects aimed at providing p
 <td>HelloWorld</td>
 <th>10/04/23</th>
 <td><a href="" rel="nofollow">Demo</a></td>
-<th><a href="" rel="nofollow">Repository</a></th>
+<th><a href="https://github.com/LeandroCDN/solidity-project-exples/tree/main/01%20HelloWorld" rel="nofollow">Repository</a></th>
 </tr>
 
 
