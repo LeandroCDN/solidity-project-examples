@@ -10,7 +10,7 @@ contract Ballot {
     address delegate; // persona a la que se delega
     uint vote;   // índice de la propuesta votada
   }
-
+  
   struct Proposal {
     // Si puedes limitar la longitud a un número determinado de bytes,
     // siempre usa uno de bytes1 a bytes32, ya que son mucho más baratos
