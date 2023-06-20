@@ -19,18 +19,53 @@ This repository contains a series of Solidity mini-projects aimed at providing p
 <tbody>
 
 <tr>
-<td align="center">01</td>
-<td>MOCK</td>
-<th>dd/mm/yy</th>
-<td><a href="https://twitter.com/LeanLabiano" rel="nofollow">My-Twitter</a></td>
-<th><a href="https://www.youtube.com/@leanlabiano" rel="nofollow">My-Youtube</a></th>
+  <td align="center">00</td>
+  <td>MOCK</td>
+  <th>dd/mm/yy</th>
+  <td><a href="https://twitter.com/LeanLabiano" rel="nofollow">My-Twitter</a></td>
+  <th><a href="https://www.youtube.com/@leanlabiano" rel="nofollow">My-Youtube</a></th>
 </tr>
 <tr>
-<td align="center">01</td>
-<td>HelloWorld</td>
-<th>10/04/23</th>
-<td><a href="" rel="nofollow">Demo</a></td>
-<th><a href="https://github.com/LeandroCDN/solidity-project-exples/tree/main/01%20HelloWorld" rel="nofollow">Repository</a></th>
+  <td align="center">01</td>
+  <td>HelloWorld</td>
+  <th>10/04/23</th>
+  <td><a href="" rel="nofollow">Demo</a></td>
+  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/tree/main/01%20HelloWorld" rel="nofollow">Repository</a></th>
+</tr>
+<tr>
+  <td align="center">02</td>
+  <td>Counter</td>
+  <th>10/04/23</th>
+  <td><a href="" rel="nofollow">Demo</a></td>
+  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/tree/main/02%20Counter" rel="nofollow">Repository</a></th>
+</tr>
+<tr>
+  <td align="center">03</td>
+  <td>Storage</td>
+  <th>11/04/23</th>
+  <td><a href="" rel="nofollow">Demo</a></td>
+  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/tree/main/03%20Storage" rel="nofollow">Repository</a></th>
+</tr>
+<tr>
+  <td align="center">04</td>
+  <td>SimpleAuction</td>
+  <th>30/04/23</th>
+  <td><a href="" rel="nofollow">Demo</a></td>
+  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/tree/main/04%20SimpleAuction" rel="nofollow">Repository</a></th>
+</tr>
+<tr>
+  <td align="center">05</td>
+  <td>Vote-System</td>
+  <th>20/06/23</th>
+  <td><a href="" rel="nofollow">Demo</a></td>
+  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/tree/main/05%20Vote-System" rel="nofollow">Repository</a></th>
+</tr>
+<tr>
+  <td align="center">06</td>
+  <td>HotelGame</td>
+  <th>10/04/23</th>
+  <td><a href="" rel="nofollow">Demo</a></td>
+  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/tree/main/06%20HotelGame" rel="nofollow">Repository</a></th>
 </tr>
 
 
