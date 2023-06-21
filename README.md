@@ -73,6 +73,22 @@ This repository contains a series of Solidity mini-projects aimed at providing p
   <th><a href="https://github.com/LeandroCDN/solidity-project-exples/tree/main/06%20HotelGame" rel="nofollow">Repository</a></th>
   <th><a href="" rel="nofollow">Challenge</a></th>
 </tr>
+<tr>
+  <td align="center">07</td>
+  <td>----</td>
+  <th>10/04/23</th>
+  <td><a href="" rel="nofollow">TUTORIAL</a></td>
+  <th><a href="" rel="nofollow">Repository</a></th>
+  <th><a href="" rel="nofollow">Challenge</a></th>
+</tr>
+<tr>
+  <td align="center">08</td>
+  <td>Vesting</td>
+  <th>21/06/23</th>
+  <td><a href="" rel="nofollow">TUTORIAL</a></td>
+  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/tree/main/08%20Vesting" rel="nofollow">Repository</a></th>
+  <th><a href="" rel="nofollow">Challenge</a></th>
+</tr>
 
 
 
