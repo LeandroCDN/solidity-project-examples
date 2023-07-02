@@ -30,7 +30,7 @@ This repository contains a series of Solidity mini-projects aimed at providing p
   <td>HelloWorld</td>
   <th>10/04/23</th>
   <td><a href="" rel="nofollow">TUTORIAL</a></td>
-  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/tree/main/01%20HelloWorld" rel="nofollow">Repository</a></th>
+  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/blob/main/01%20-%20Hello%20World/HelloWorld.sol" rel="nofollow">Repository</a></th>
   <th><a href="" rel="nofollow">Challenge</a></th>
 </tr>
 <tr>
@@ -38,7 +38,7 @@ This repository contains a series of Solidity mini-projects aimed at providing p
   <td>Counter</td>
   <th>10/04/23</th>
   <td><a href="" rel="nofollow">TUTORIAL</a></td>
-  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/tree/main/02%20Counter" rel="nofollow">Repository</a></th>
+  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/blob/main/02%20-%20Counter/Counter.sol" rel="nofollow">Repository</a></th>
   <th><a href="" rel="nofollow">Challenge</a></th>
 </tr>
 <tr>
@@ -46,7 +46,7 @@ This repository contains a series of Solidity mini-projects aimed at providing p
   <td>Storage</td>
   <th>11/04/23</th>
   <td><a href="" rel="nofollow">TUTORIAL</a></td>
-  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/tree/main/03%20Storage" rel="nofollow">Repository</a></th>
+  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/blob/main/03%20-%20Storage/Storage.sol" rel="nofollow">Repository</a></th>
   <th><a href="" rel="nofollow">Challenge</a></th>
 </tr>
 <tr>
@@ -54,7 +54,7 @@ This repository contains a series of Solidity mini-projects aimed at providing p
   <td>SimpleAuction</td>
   <th>30/04/23</th>
   <td><a href="" rel="nofollow">TUTORIAL</a></td>
-  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/tree/main/04%20SimpleAuction" rel="nofollow">Repository</a></th>
+  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/blob/main/04%20-%20Simple%20Auction/SimpleAuction.sol" rel="nofollow">Repository</a></th>
   <th><a href="" rel="nofollow">Challenge</a></th>
 </tr>
 <tr>
@@ -62,7 +62,7 @@ This repository contains a series of Solidity mini-projects aimed at providing p
   <td>Vote-System</td>
   <th>20/06/23</th>
   <td><a href="" rel="nofollow">TUTORIAL</a></td>
-  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/tree/main/05%20Vote-System" rel="nofollow">Repository</a></th>
+  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/blob/main/05%20-%20Vote%20system/VoteSystem.sol" rel="nofollow">Repository</a></th>
   <th><a href="" rel="nofollow">Repository</a></th>
 </tr>
 <tr>
@@ -70,7 +70,7 @@ This repository contains a series of Solidity mini-projects aimed at providing p
   <td>HotelGame</td>
   <th>10/04/23</th>
   <td><a href="" rel="nofollow">TUTORIAL</a></td>
-  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/tree/main/06%20HotelGame" rel="nofollow">Repository</a></th>
+  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/blob/main/06%20-%20HotelGame/HotelGame.sol" rel="nofollow">Repository</a></th>
   <th><a href="" rel="nofollow">Challenge</a></th>
 </tr>
 <tr>
@@ -86,7 +86,7 @@ This repository contains a series of Solidity mini-projects aimed at providing p
   <td>Vesting</td>
   <th>21/06/23</th>
   <td><a href="" rel="nofollow">TUTORIAL</a></td>
-  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/tree/main/08%20Vesting" rel="nofollow">Repository</a></th>
+  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/blob/main/08%20-%20Vesting/Vesting.sol" rel="nofollow">Repository</a></th>
   <th><a href="" rel="nofollow">Challenge</a></th>
 </tr>
 
