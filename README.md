@@ -89,6 +89,13 @@ This repository contains a series of Solidity mini-projects aimed at providing p
   <th><a href="https://github.com/LeandroCDN/solidity-project-exples/blob/main/08%20-%20Vesting/Vesting.sol" rel="nofollow">Repository</a></th>
   <th><a href="" rel="nofollow">Challenge</a></th>
 </tr>
+  <td align="center">09</td>
+  <td>Faucet</td>
+  <th>02/07/23</th>
+  <td><a href="" rel="nofollow">TUTORIAL</a></td>
+  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/blob/main/09%20-%20Faucet/Faucet.sol" rel="nofollow">Repository</a></th>
+  <th><a href="" rel="nofollow">Challenge</a></th>
+</tr>
 
 
 
