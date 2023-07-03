@@ -59,5 +59,5 @@ contract Marketplace is Ownable{
 *   Unlist func
 *   Market Fees
 *   Remake all contract to hold in this contract all nfts on sale
-*   Sale under time, like only open for 6 days 
+*   ale under time, like only open for 6 days 
 */
