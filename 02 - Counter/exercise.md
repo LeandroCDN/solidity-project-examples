@@ -1,10 +1,8 @@
-# Exercises: "Modifie the message"
-
+# Exercises: "Count this"
   
 Dificult: Basic
 
-
-### 1. Establecer límite mínimo y máximo**
+### 1. Establecer límite mínimo y máximo
 **Objective: Añadir restricciones para evitar que el contador se salga de ciertos límites.**
 
 - Agrega dos variables de estado: uint256 private minCount y uint256 private maxCount.

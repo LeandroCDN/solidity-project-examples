@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.8.2 <0.9.0;
 
-//Aqui van las importaciones
+// Este codigo puede no funcionar. Porque?
 
 contract Storage {
     uint256[] number;
