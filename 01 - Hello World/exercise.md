@@ -11,4 +11,4 @@ Objective: Familiarizarse con la modificación de variables en un contrato.
 		
 	2. Añadir contador de saludos
 		A. Crear un contador de saludos, cada ves que se llame a la funcion 'getGreeting' que este contador suba en 1.
-		B. Crear una funcion que permita obtener la cantidad de saludos
+		B. Crear una funcion que permita obtener la cantidad de saludos.
