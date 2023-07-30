@@ -1,6 +1,6 @@
 ## Exercises: "I buy that"
 
-Dificult: XxX
+Dificult: medium
     
     1. Añadir una función para extender el tiempo de subasta 
     Task: Permitir al beneficiario (dueño) de la subasta extender el tiempo de la subasta si lo desea.*
