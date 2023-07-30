@@ -96,6 +96,31 @@ This repository contains a series of Solidity mini-projects aimed at providing p
   <th><a href="https://github.com/LeandroCDN/solidity-project-exples/blob/main/09%20-%20Faucet/Faucet.sol" rel="nofollow">Repository</a></th>
   <th><a href="" rel="nofollow">Challenge</a></th>
 </tr>
+</tr>
+  <td align="center">10</td>
+  <td>ERC721</td>
+  <th>30/07/23</th>
+  <td><a href="" rel="nofollow">TUTORIAL</a></td>
+  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/blob/main/10%20-%20ERC721/ERC721.sol" rel="nofollow">Repository</a></th>
+  <th><a href="" rel="nofollow">Challenge</a></th>
+</tr>
+</tr>
+  <td align="center">11</td>
+  <td>Marketplace</td>
+  <th>30/07/23</th>
+  <td><a href="" rel="nofollow">TUTORIAL</a></td>
+  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/blob/main/10%20-%20marketplace/marketplace.sol" rel="nofollow">Repository</a></th>
+  <th><a href="" rel="nofollow">Challenge</a></th>
+</tr>
+</tr>
+  <td align="center">12</td>
+  <td>Crowfunding</td>
+  <th>30/07/23</th>
+  <td><a href="" rel="nofollow">TUTORIAL</a></td>
+  <th><a href="https://github.com/LeandroCDN/solidity-project-exples/blob/main/10%20-%20Crowfunding/Crowfunding.sol" rel="nofollow">Repository</a></th>
+  <th><a href="" rel="nofollow">Challenge</a></th>
+</tr>
+
 
 
 
