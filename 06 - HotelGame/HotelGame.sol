@@ -13,12 +13,16 @@ contract TheHotelGame {
         uint256 refs;
         uint256 refDeps;
         uint8[8] Stars;
+        uint64 startDate;
     }
     mapping(address => Hotel) public hotels;
     uint256 public totalStars;
     uint256 public totalHotels;
     uint256 public totalInvested;
     address public manager = msg.sender;
+    uint public sellTime = 1 days;
+
+    event SellHotel(address from, uint money);
 
     function addCoins(address ref) public payable {
         uint256 coins = msg.value / 2e13;
@@ -31,6 +35,7 @@ contract TheHotelGame {
             hotels[ref].refs++;
             hotels[user].ref = ref;
             hotels[user].timestamp = block.timestamp;
+            hotels[user].startDate = uint64(block.timestamp);
         }
         ref = hotels[user].ref;
         hotels[ref].coins += (coins * 7) / 100;
@@ -68,13 +73,17 @@ contract TheHotelGame {
     }
 
     function sellHotel() public {
+        require(hotels[msg.sender].startDate > (block.timestamp + sellTime), "need more time to sell");
         collectMoney();
         address user = msg.sender;
         uint8[8] memory Stars = hotels[user].Stars;
         totalStars -= Stars[0] + Stars[1] + Stars[2] + Stars[3] + Stars[4] + Stars[5] + Stars[6] + Stars[7];
-        hotels[user].money += hotels[user].yield * 24 * 14;
+        uint money = hotels[user].yield * 24 * 14;
+        hotels[user].money += money;
         hotels[user].Stars = [0, 0, 0, 0, 0, 0, 0, 0];
         hotels[user].yield = 0;
+
+        emit SellHotel(user, money);
     }
 
     function getStars(address addr) public view returns (uint8[8] memory) {
@@ -94,31 +103,21 @@ contract TheHotelGame {
         hotels[user].timestamp = block.timestamp;
     }
 
-    function getUpgradePrice(uint256 floorId, uint256 workerId) internal pure returns (uint256) {
-        if (workerId == 1) {
-            return [500, 1500, 4500, 13500, 40500, 120000, 365000, 1000000][floorId];
-        }
-        if (workerId == 2) return [625, 1800, 5600, 16800, 50600, 150000, 456000, 1200000][floorId];
-        if (workerId == 3) return [780, 2300, 7000, 21000, 63000, 187000, 570000, 1560000][floorId];
-        if (workerId == 4) return [970, 3000, 8700, 26000, 79000, 235000, 713000, 2000000][floorId];
-        if (workerId == 5) return [1200, 3600, 11000, 33000, 98000, 293000, 890000, 2500000][floorId];
-        revert("Incorrect workerId");
+    function getUpgradePrice(uint256 floorId, uint256 stars) internal pure returns (uint256) {
+        if (stars == 1) return [500, 1500, 4500, 13500, 40500, 120000, 365000, 1000000][floorId];
+        if (stars == 2) return [625, 1800, 5600, 16800, 50600, 150000, 456000, 1200000][floorId];
+        if (stars == 3) return [780, 2300, 7000, 21000, 63000, 187000, 570000, 1560000][floorId];
+        if (stars == 4) return [970, 3000, 8700, 26000, 79000, 235000, 713000, 2000000][floorId];
+        if (stars == 5) return [1200, 3600, 11000, 33000, 98000, 293000, 890000, 2500000][floorId];
+        revert("Incorrect stars");
     }
 
-    function getYield(uint256 floorId, uint256 workerId) internal pure returns (uint256) {
-        if (workerId == 1) return [41, 130, 399, 1220, 3750, 11400, 36200, 104000][floorId];
-        if (workerId == 2) return [52, 157, 498, 1530, 4700, 14300, 45500, 126500][floorId];
-        if (workerId == 3) return [65, 201, 625, 1920, 5900, 17900, 57200, 167000][floorId];
-        if (workerId == 4) return [82, 264, 780, 2380, 7400, 22700, 72500, 216500][floorId];
-        if (workerId == 5) return [103, 318, 995, 3050, 9300, 28700, 91500, 275000][floorId];
-        revert("Incorrect workerId");
+    function getYield(uint256 floorId, uint256 stars) internal pure returns (uint256) {
+        if (stars == 1) return [41, 130, 399, 1220, 3750, 11400, 36200, 104000][floorId];
+        if (stars == 2) return [52, 157, 498, 1530, 4700, 14300, 45500, 126500][floorId];
+        if (stars == 3) return [65, 201, 625, 1920, 5900, 17900, 57200, 167000][floorId];
+        if (stars == 4) return [82, 264, 780, 2380, 7400, 22700, 72500, 216500][floorId];
+        if (stars == 5) return [103, 318, 995, 3050, 9300, 28700, 91500, 275000][floorId];
+        revert("Incorrect stars");
     }
 }
-
-/* TODO:
- * make tax in public var (line 41)
- * Can money2 can be deleted?
- * puedo hacer el juego gratis?
- * aumentarlo a 72hrs?
- * eliminar sis de referidos
-*/
