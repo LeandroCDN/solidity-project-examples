@@ -29,7 +29,7 @@ This repository contains a series of Solidity mini-projects aimed at providing p
   <td align="center">01</td>
   <td>HelloWorld</td>
   <th>10/04/23</th>
-  <td><a href="" rel="https://youtu.be/Zn0K-zsm44Q">TUTORIAL</a></td>
+  <td><a href="https://youtu.be/Zn0K-zsm44Q" rel="nofollow">TUTORIAL</a></td>
   <th><a href="https://github.com/LeandroCDN/solidity-project-examples/blob/main/01%20-%20Hello%20World/HelloWorld.sol" rel="nofollow">Repository</a></th>
   <th><a href="" rel="nofollow">Challenge</a></th>
 </tr>
@@ -37,7 +37,7 @@ This repository contains a series of Solidity mini-projects aimed at providing p
   <td align="center">02</td>
   <td>Counter</td>
   <th>10/04/23</th>
-  <td><a href="" rel="https://youtu.be/_67QiquXsnM">TUTORIAL</a></td>
+  <td><a href="https://youtu.be/_67QiquXsnM" rel="nofollow">TUTORIAL</a></td>
   <th><a href="https://github.com/LeandroCDN/solidity-project-examples/blob/main/02%20-%20Counter/Counter.sol" rel="nofollow">Repository</a></th>
   <th><a href="" rel="nofollow">Challenge</a></th>
 </tr>
