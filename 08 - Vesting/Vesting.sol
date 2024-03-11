@@ -12,12 +12,14 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 contract Vesting is Ownable {
   bool stateVesting;
   uint startVesting;
-  uint interval = 30 days;
-  uint totalCurrency;
+  uint interval = 30 days; //30 days in seconds
+  uint public totalCurrency;
   uint8 maxClaims = 10;
   
   IERC20 public currency;
   mapping(address => uint) public totalAmounts;
+          
+
   mapping(address => uint) public totalClaims;
 
   constructor(address currency_) {
@@ -52,11 +54,16 @@ contract Vesting is Ownable {
         ++i;
       }
     }
-    totalCurrency = totalCurrency_;
+    totalCurrency += totalCurrency_;
   }
 
-  function removeAccounts()public onlyOwner beforeVestingStart(){
-    // completar esta funcion:
+  function setCurrency(IERC20 currency_) public onlyOwner beforeVestingStart(){
+    currency = currency_;
+  }
+
+  function removeAccounts(address account) public onlyOwner beforeVestingStart(){
+    totalCurrency -= totalAmounts[account];
+    totalAmounts[account] = 0; 
   }
 
   function changeInterval(uint intervalInSconds) public onlyOwner beforeVestingStart(){
@@ -64,6 +71,7 @@ contract Vesting is Ownable {
   }
 
   function initializeVesting() public onlyOwner beforeVestingStart(){
+    
     require(currency.balanceOf(address(this)) >= totalCurrency, "Not enough balance");
     stateVesting = true;
     startVesting = block.timestamp;
@@ -81,12 +89,5 @@ contract Vesting is Ownable {
 
     currency.transfer(user, totalAmount);
   }
-
 }
 
-//posibles tareas
-/*
-  - hacer que el contrato sea reutilizable. 
-  - Completar la funcion remove acounts
-  - permitir que el contrato use Crypto( matic en polygon, eth en ethereum (funciones payables))
-*/
